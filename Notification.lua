@@ -195,6 +195,7 @@ notifications.Name = "notifications"
 notifications.Parent = game:GetService("CoreGui")
 notifications.ZIndexBehavior = Enum.ZIndexBehavior.Global
 notifications.ResetOnSpawn = false
+notifications.DisplayOrder = 10
 
 notifsHolderFrame.Name = "notifsHolderFrame"
 notifsHolderFrame.Parent = notifications
