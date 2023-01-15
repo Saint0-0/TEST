@@ -193,7 +193,7 @@ closeSound.Parent = ss
 
 notifications.Name = "notifications"
 notifications.Parent = game:GetService("CoreGui")
-notifications.ZIndexBehavior = Enum.ZIndexBehavior.Global
+notifications.ZIndex = 20
 notifications.ResetOnSpawn = false
 notifications.DisplayOrder = 10
 
@@ -206,7 +206,7 @@ notifsHolderFrame.BorderSizePixel = 0
 notifsHolderFrame.ClipsDescendants = true
 notifsHolderFrame.Position = UDim2.new(1, 0, 1, -10)
 notifsHolderFrame.Size = UDim2.fromScale(0.25, 0.3)
-notifsHolderFrame.ZIndex = 7
+notifsHolderFrame.ZIndex = 21
 
 notifHolderListLayout.Name = "notifHolderListLayout"
 notifHolderListLayout.Parent = notifsHolderFrame
