@@ -193,9 +193,9 @@ closeSound.Parent = ss
 
 notifications.Name = "notifications"
 notifications.Parent = game:GetService("CoreGui")
-notifications.ZIndex = 20
 notifications.ResetOnSpawn = false
-notifications.DisplayOrder = 10
+notifications..ZIndexBehavior = Enum.ZIndexBehavior.Global
+notifications.DisplayOrder = 20
 
 notifsHolderFrame.Name = "notifsHolderFrame"
 notifsHolderFrame.Parent = notifications
